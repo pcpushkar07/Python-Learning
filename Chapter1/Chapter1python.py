@@ -1,0 +1,70 @@
+#Assingment question 1: Print your name 10 times using * symbol and each time it should be on next line.
+
+print(("Pushkar" + ("\n")) * 10)
+
+# Chapter 1:
+# How Python Code Executes:
+# - Python code runs line by line(interpreter based).
+# - Each line is converted into bytecode,then executed by the Python Virtual Machine(PVM).
+# - Error stops execution immediatly at the line mistake is done in python code.
+
+# VARIABLES AND MEMORY CONCEPT:
+ 
+# Value keeps changing.
+# Variable= name that stores a value in memory.
+# In python,variables are used to store data that can be referenced and manipulated during program execution.
+# Use Id() to check memory location - print(Id(x))
+
+#Example_
+
+name = "Pushkar Chaudhari"
+print(name)
+age1 = 25
+age2 = 40
+print("Actual Value:" , age2)  #We cannot use + or - operator in place of comma as one is string and one is integer,so addition is not possible.
+favsubject = "Maths"
+age2 = age1 
+print("Changed Value:" , age2)
+
+# We can create a new Python variable by assingning a value to a label, using = assingment operator.
+# ex - name = "Pushkar" , age = 8 (label is name and string is Pushkar). 
+#  A variable name can be composed by characters ,numbers, the underscore character .It can't start with a number.
+# Valid variable name = 
+#                     name1 , ABC , abc , a1111 , my_name , _name
+ 
+# Not Valid variable names:
+#                     124 , test! , name%
+# Other than that anything is valid unless it Python keywords.Like for , if , else , elseif , while , import etc etc,(don't memorize)
+
+
+# TAKING USER INPUT:
+# Use input() to get user input.
+# ex- name = input("Enter your name")
+#     print("Hello" , name)
+
+#Program to take input from the user:
+
+print("A sample program to understand input menthos in python")
+
+name = input("Enter your name:")
+
+print("Your good name is:", name)
+
+# EXPRESSION AND STATEMENT:
+
+# EXPRESSION: Combination of operators and operands.
+# ex:- x=10 (not expression)
+#      x+3 (expresssion , one operator,2 operands, and returns a value)
+#      1 + 2 , "Rogger"
+
+# Statement: A python statement is an instruction that the Python interpreter can execute.It's an operation on a value.
+# ex- name= "Rogger"
+#     print(name)
+
+# Indentation:
+
+# Its bassicly the white space we leave.
+# You cannot indent randomly like this:
+#    name("Pushkar")
+#         print (name) (So the white space before print and above name is called indentaion)
+# Indentation in python is meaningful, in some other language Indentation doesn't matter but python has meaningful white space.
