@@ -68,7 +68,7 @@ Laptop2 = Laptop()
 Laptop2.brand = "Lenovo"
 print("Laptop2 Brand" , Laptop2.brand)
 print("Laptop2 RAM" ,Laptop2.RAM)
-print("Laptop2 Price" , Laptop2.price)
+# print("Laptop2 Price" , Laptop2.price)
 
 # Note: The weightage of an attribute in object is more then in class so it can pleace class attributes easily.
 
