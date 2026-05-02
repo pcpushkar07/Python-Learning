@@ -17,7 +17,7 @@ print(("Pushkar" + ("\n")) * 10)
 
 #Example_
 
-name = "Pushkar Chaudhari"
+name = "Pushkar Chaudhari"+   ++
 print(name)
 age1 = 25
 age2 = 40

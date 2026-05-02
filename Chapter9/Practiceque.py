@@ -16,3 +16,6 @@ class student():
 
 student1 = student("Pushkar" , [98,99,95])
 student1.average()      
+
+# Create static method to validate if a number is even.
+

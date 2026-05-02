@@ -1,0 +1,1 @@
+print(  "\n Pushkar" * 10)

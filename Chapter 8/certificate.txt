@@ -1,3 +1,0 @@
-Live score = 70
-Total score = 100
-Runs to win = 30

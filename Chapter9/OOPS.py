@@ -139,19 +139,29 @@ print("student2 course-" , student2.course)
 
 # Example- 
 
-class student:
-    def __init__(self , name):
-        self.name =name
+# class student:
+#     def __init__(self , name):
+#         self.name =name
 
-        def hello(self):
-            print("Hello" , self.name)
+#         def hello(self):
+#             print("Hello" , self.name)
 
-s1 = student("Pushkar")
-s1.hello()
-
-
+# s1 = student("Pushkar")
+# s1.hello()
 
 
+# 6. Static Methods:
+
+# Static methods do no use self.
+# They are used for utility-level function.
+
+
+# ex- 
+
+# class student():
+#     @staticmethod
+#     def school():
+#         print("ABC Public School")     #generic name
 
 
 

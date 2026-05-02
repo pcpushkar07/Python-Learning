@@ -1,5 +1,0 @@
-My name is Pushkar.
-I am in Alrad College of Engineering.
-I am 19 years old
-I am in ENTC Branch.
-Currently I am learning python.
